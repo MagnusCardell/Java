@@ -1,7 +1,8 @@
 /* Example of network communication:  Sender.java -- RAB 1/99 
    Requires two command line args:  
      1.  name of host to connect to, 
-     2.  port number to use. */
+     2.  port number to use. 
+  Modified by Magnus Cardell 1/18 */
 
 import java.io.*;
 import java.net.*;

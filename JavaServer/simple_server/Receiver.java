@@ -1,6 +1,8 @@
 /* Example of network communication:  Receiver.java -- RAB 1/99 
    Requires one command line arg:  
-     1.  port number to use (on this machine). */
+     1.  port number to use (on this machine). 
+
+  Modified by Magnus Cardell 1/18 */
 
 import java.io.*;
 import java.net.*;
