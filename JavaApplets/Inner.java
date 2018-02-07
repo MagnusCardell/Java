@@ -7,7 +7,11 @@
 
 /* Modified by R. Brown 1/8/99:  name change, doc tweak 
    Use an "adapter" class to implement Mouse interface 
-   R. Brown 1/6/00:  Implement MouseMotion listener with adapter class, too */
+   R. Brown 1/6/00:  Implement MouseMotion listener with adapter class, too 
+Modified 1/18 --magnus cardell
+   */
+
+
    
 
 import java.applet.*;

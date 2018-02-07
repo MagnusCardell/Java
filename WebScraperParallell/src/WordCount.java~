@@ -1,4 +1,4 @@
-package spider;
+package pSpider;
 
 /**
  * Counts the number of times a word has occured.
@@ -16,6 +16,16 @@ public class WordCount implements Comparable<WordCount>{
 		this.word = word.toLowerCase();
 	}	
 	
+	/**
+	 * Intializes both the word and the count
+	 * @param word
+	 * @param count
+	 */
+	public WordCount(String word, int count) {
+		this.count = count;
+		this.word = word.toLowerCase();
+	}	
+
 	/**
 	 * @return the numOccurences
 	 */
@@ -36,6 +46,7 @@ public class WordCount implements Comparable<WordCount>{
 		count++;
 	}
 
+	@Override
 	public int compareTo(WordCount o) {
 		if (count != o.getCount()) {
 			return count - o.count;

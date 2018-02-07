@@ -5,6 +5,7 @@ import java.awt.*;
 /* Demo of threads:  double-buffered Bounce Applet
    RAB, inspired by Flanagan, "Java Examples in a Nutshell", 1997 
    Implemented as a subclass to highlight changes needed for double buffering
+  Modified 1/18 -- magnus cardell
 */
 
 public class Bounce2 extends Bounce {

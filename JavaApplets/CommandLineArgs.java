@@ -1,3 +1,6 @@
+/* Prints factorials from command line arguments
+
+	1/18 -- magnus cardell */
 import java.io.*;
 
 public class CommandLineArgs {
