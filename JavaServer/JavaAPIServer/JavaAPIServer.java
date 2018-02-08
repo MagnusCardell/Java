@@ -1,6 +1,8 @@
-/* Example of a REST server -- RAB 1/18
-   NOTE:  This demo server handles HTTP requests within the main thread, 
-   but a production server should start a new thread to service each request
+/* REST server implemented from scratch.
+  Opens a socket connection with a parallel thread reading command-line strings. 
+  Sends and recieves messages embedded in REST headers. Parsed and compiled by HttpParser.html.
+  POST - saves a string in an ID corresponding to the React- server database through File IO.
+  GET - gets the contents of a file corresponding to the unique ID corresponding to the react-server database
    Requires one command line arg:  
    1.  port number to use (on this machine). */
 
